@@ -92,7 +92,7 @@ ul {
     background-image: linear-gradient(#039aff, #043862);
 
     h1 {
-        font-size: clamp(2.6rem, 4vh, 30px);
+        font-size: clamp(2.4rem, 4vh, 30px);
         text-align: center;
         color: aliceblue;
         font-family: Inter, sans-serif;
@@ -487,7 +487,7 @@ ul {
     }
 
     .gallery img {
-        width: 300px;
+        width: 80vw;
         height: 40vh;
         object-fit: cover;
     }
