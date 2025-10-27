@@ -96,7 +96,10 @@ ul {
         text-align: center;
         color: aliceblue;
         font-family: Inter, sans-serif;
+        
     }
+    
+   
 
     .hero-btn {
         display: flex;
@@ -487,9 +490,17 @@ ul {
     }
 
     .gallery img {
-        width: 80vw;
-        height: 40vh;
+        width: 20rem;
+        height: 20rem;
         object-fit: cover;
+        transition: transform ease-in 2s 0s ;
+        
+    }
+
+
+    .gallery img:hover{
+        transform: scale(1.1);
+      
     }
 }
 
